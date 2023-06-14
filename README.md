@@ -248,7 +248,19 @@ the optional parameter `-d` translates the produced plan into a dot file in the 
 }
 ```
 
+## Docker
 
+Prerequisites: [Docker](https://docs.docker.com/engine/install/ubuntu/)
+
+Build the image with:
+```
+docker build -t safe-planner .
+```
+
+Run a container with:
+```
+docker run -it --rm --name safe-planner safe-planner
+```
 
 ## How to cite
 
